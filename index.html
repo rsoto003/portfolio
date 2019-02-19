@@ -24,6 +24,7 @@
   <link href="css/creative.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
+  <link rel="stylesheet" href="path/to/font-mfizz/font-mfizz.css">
 </head>
 
 <body id="page-top">
@@ -83,7 +84,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
+          <h2 class="text-white mt-0">I'm a Software Developer based in Southern California that is passionate about many different things.</h2>
           <hr class="divider light my-4">
           <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
@@ -93,55 +94,56 @@
   </section>
 
   <!-- Services Section -->
-  <section class="page-section" id="services">
+  <section class="page-section bg-secondary text-white" id="services">
     <div class="container">
       <h2 class="text-center mt-0">What I Do.</h2>
       <hr class="divider my-4">
       <div class="row mb-3 text-center col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mx-auto">
-        <!-- <div class="col-lg-3 col-md-6 text-center">
+        <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <i class="fab fa-5x fa-html5 text-primary mb-4"></i>
+            <!-- <h3 class="h4 mb-2">Sturdy Themes</h3> -->
+            <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <i class="fab fa-5x fa-css3 text-primary mb-4"></i>
+            <!-- <h3 class="h4 mb-2">Up to Date</h3> -->
+            <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            <i class="fab fa-5x fa-js text-primary mb-4"></i>
+            <!-- <h3 class="h4 mb-2">Ready to Publish</h3> -->
+            <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <i class="fab fa-5x fa-node text-primary mb-4"></i>
+            <i class="icon-mongodb"></i>
+            <!-- <h3 class="h4 mb-2">Made with Love</h3> -->
+            <!-- <p class="text-muted mb-0">Is it really open source if it's not made with love?</p> -->
           </div>
-        </div> -->
-        <a class="fab fa-html5 fa-5x pr-4"></a>
+        </div>
+        <!-- <a class="fab fa-html5 fa-5x pr-4"></a>
         <a class="fab fa-js fa-5x pr-4"></a>
         <a class="fab fa-css3-alt fa-5x pr-4"></a>
         <a class="fab fa-node fa-5x pr-4"></a>
-        <a class="fa-5x pr-4 fab fa-git"></a>
+        <a class="fa-5x pr-4 fab fa-git"></a> -->
       </div>
     </div>
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
+  <section>
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="">
+          <!-- <a class="portfolio-box" href="">
             <img class="img-fluid" src="img/bloggr-post.png" alt="">
 
             <div class="portfolio-box-caption">
@@ -152,25 +154,78 @@
                 Full Stack CRUD Application
               </div>
             </div>
-          </a>
+          </a> -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/bloggr-landing.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/bloggr-post.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/bloggr-edit.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
         </div>
 
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <!-- <a class="portfolio-box" href="img/macro-table.png">
+            <img class="img-fluid" src="img/macro-logo.png" alt="">
+            
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Macro Counter
               </div>
               <div class="project-name">
-                Hobby project
+                Eat the right foods.
               </div>
             </div>
-          </a>
+          </a> -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/macro-logo.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/macro-info.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/macro-table.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
         </div>
 
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+          <!-- <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -180,7 +235,8 @@
                 Project Name
               </div>
             </div>
-          </a>
+          </a> -->
+
         </div>
 
         <!-- <div class="col-lg-4 col-sm-6">
@@ -246,12 +302,12 @@
           <p class="text-muted mb-5"></p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
+      <div class="row mx-auto justify-content-center">
+        <!-- <div class="col-lg-4 ml-auto text-center">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
           <div>951-990-0644</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
+        </div> -->
+        <div class="col-lg-4 mx-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
           <a class="d-block" href="mailto:contact@yourwebsite.com">contactryansotodev@gmail.com</a>
