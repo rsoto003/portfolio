@@ -101,7 +101,7 @@ abbr[data-original-title] {
   cursor: help;
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
-  text-decoration-skip-ink: none;
+  /* text-decoration-skip-ink: none; */
 }
 
 address {
@@ -4015,7 +4015,7 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  /* appearance: none; */
 }
 
 .custom-select:focus {
@@ -4136,7 +4136,7 @@ input[type="button"].btn-block {
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  /* appearance: none; */
 }
 
 .custom-range:focus {
@@ -4172,7 +4172,7 @@ input[type="button"].btn-block {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
-  appearance: none;
+  /* appearance: none; */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4207,7 +4207,7 @@ input[type="button"].btn-block {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -moz-appearance: none;
-  appearance: none;
+  /* appearance: none; */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4244,7 +4244,7 @@ input[type="button"].btn-block {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  appearance: none;
+  /* appearance: none; */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6028,7 +6028,7 @@ button.close {
   border: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+  /* appearance: none; */
 }
 
 a.close.disabled {
@@ -6045,7 +6045,7 @@ a.close.disabled {
   -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   opacity: 0;
   border-radius: 0.25rem;
 }
